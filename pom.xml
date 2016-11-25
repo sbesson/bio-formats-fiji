@@ -17,7 +17,7 @@
   </dependencies>
   
   <properties>
-  	<fiji.home>/Applications/Fiji.app</fiji.home>
+    <fiji.home>/Applications/Fiji.app</fiji.home>
   </properties>
 
   <build>
