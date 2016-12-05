@@ -4,9 +4,9 @@ bio-formats-fiji
 A simple POM allowing to update a Fiji distribution with a new version of
 Bio-Formats.
 
-To update the distribution simply run::
+To update the distribution simply run:
 
-   mvn clean package
+     mvn clean package
 
 Additional two properties can be overriden and passed as `-Dkey=value` to
 the command above:
