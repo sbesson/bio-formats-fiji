@@ -81,5 +81,10 @@
       <name>Bio-Formats Repo</name>
       <url>http://artifacts.openmicroscopy.org/artifactory/maven</url>
     </repository>
+    <repository>
+      <id>unidata</id>
+      <name>Unidata Repository</name>
+      <url>http://artifacts.unidata.ucar.edu/content/repositories/unidata-releases</url>
+    </repository>
   </repositories>
 </project>
