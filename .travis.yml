@@ -1,0 +1,5 @@
+language: java
+sudo: false
+jfk: oraclejk8
+
+script: ./travis-deploy.sh
