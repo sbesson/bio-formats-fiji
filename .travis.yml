@@ -2,4 +2,8 @@ language: java
 sudo: false
 jfk: oraclejk8
 
-script: ./travis-deploy.sh
+deploy:
+  provider: script
+  script: ./travis-deploy.sh
+  on:
+    branch: master
