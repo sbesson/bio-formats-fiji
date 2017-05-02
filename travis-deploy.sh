@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 set -e
 
-export WEBDAV_USER="Sbesson"
-export UPDATE_SITE="Sbesson"
+export WEBDAV_USER="Bio-Formats"
+export UPDATE_SITE="Bio-Formats"
 
 # Define some variables 
 export IJ_PATH="$HOME/Fiji.app"
