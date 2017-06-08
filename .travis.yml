@@ -1,6 +1,6 @@
 language: java
 sudo: false
-jfk: oraclejk8
+jdk: oraclejdk8
 deploy:
   provider: script
   script: "./travis-deploy.sh"
