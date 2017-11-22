@@ -14,4 +14,4 @@ Additional two properties can be overriden and passed as `-Dkey=value` to
 the command above:
 
 - `fiji.home` specified the root directory of the Fiji application (default: `Applications/Fiji.app`)
-- `bioformats.verison` specifies the new version of Bio-Formats to replace into the Fiji distribution
+- `bioformats.version` specifies the new version of Bio-Formats to replace into the Fiji distribution

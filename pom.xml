@@ -10,7 +10,7 @@
 
   <properties>
     <fiji.home>Fiji.app</fiji.home>
-    <bioformats.version>5.7.2-SNAPSHOT</bioformats.version>
+    <bioformats.version>5.7.3-SNAPSHOT</bioformats.version>
   </properties>
 
   <dependencies>
@@ -79,12 +79,12 @@
     <repository>
       <id>ome</id>
       <name>Bio-Formats Repo</name>
-      <url>http://artifacts.openmicroscopy.org/artifactory/maven</url>
+      <url>https://artifacts.openmicroscopy.org/artifactory/maven</url>
     </repository>
     <repository>
       <id>unidata</id>
       <name>Unidata Repository</name>
-      <url>http://artifacts.unidata.ucar.edu/content/repositories/unidata-releases</url>
+      <url>https://artifacts.unidata.ucar.edu/content/repositories/unidata-releases</url>
     </repository>
   </repositories>
 </project>
