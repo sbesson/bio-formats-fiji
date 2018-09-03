@@ -1,7 +1,7 @@
 Bio-Formats Fiji
 ================
 
-[![Build Status](https://travis-ci.org/openmicroscopy/bio-formats-fiji.svg)](https://travis-ci.org/openmicroscopy/bio-formats-fiji)
+[![Build Status](https://travis-ci.org/ome/bio-formats-fiji.svg)](https://travis-ci.org/ome/bio-formats-fiji)
 
 A simple POM allowing to update a Fiji distribution with a new version of
 Bio-Formats.
