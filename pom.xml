@@ -10,7 +10,7 @@
 
   <properties>
     <fiji.home>Fiji.app</fiji.home>
-    <bioformats.version>6.0.0-m3</bioformats.version>
+    <bioformats.version>6.0.0-m4</bioformats.version>
   </properties>
 
   <dependencies>
