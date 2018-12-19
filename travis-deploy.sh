@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 set -e
 
 export WEBDAV_USER=${WEBDAV_USER:-"Bio-Formats"}
