@@ -1,12 +1,9 @@
+---
 language: java
 sudo: false
-jdk: oraclejdk8
+jdk: openjdk8
 deploy:
   provider: script
   script: "./travis-deploy.sh"
   on:
     branch: master
-notifications:
-  slack:
-    secure: BHwUelpyhrtzpAI6yJmAJP9DWGK/pZwEyfy/1mCEs8cEwvWH1IWk4TvstTLFjinjc9B/5+6hgE04DPmMAld1KDiqghQk2DtNxch4tuzH4vbmPv/d6z0fpF6eOdr4YwPbQ/hXJTEutU7BN9NM9ojPheuHj7U48tpFiAqgPkh/rzfpIkOCOknopkfOSFMS0d0oC/HkMykCX9GzOobNYlW5NZFi+bIGRq4iiBwJgs2NdtcUjp7GgxIbk42agkDzoDhFIXBYQq+ROhmkkECZNiiz6xDY89qgkNP+zJX2qPN/o/zB2FaNupWKDD8YUkrae5Wuf02HP34hwr9mMGUkzo+/RctrHAFLym6VA3bvA6GnAOw29PR0fd4nNoPa3myVbENnJGfBM7z/cBY4ey1KPMHQMSJyDOgptLq/5cH5wAyOfFw/DFxPcynS2UtfMGdL77kZ/v7e4yjDJiQqIUS4Hx44n/6W+btVLhRnX8BBMm7c6JjQHqx4eIpRQFGexOBX/wIfdjp6JDy7p0R6n6m54QQOTt2x6T1SEV78LWgrcOynDIoAalZH3zyGwW3Njvq1ZQLccVLeNkLo0q0rhC6zgviae20PqR7DpBUWnTQh/FXqSwMObzClMnPqES0hpAMfT/YGd8qzbdOq83VgZMXRanGTh8bgEVPlY+vrr2ZzHIgd8Hs=
-    on_success: change
