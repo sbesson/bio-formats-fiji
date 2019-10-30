@@ -19,6 +19,11 @@
       <artifactId>bio-formats_plugins</artifactId>
       <version>${bioformats.version}</version>
     </dependency>
+    <dependency>
+      <groupId>ome</groupId>
+      <artifactId>bio-formats-tools</artifactId>
+      <version>${bioformats.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
