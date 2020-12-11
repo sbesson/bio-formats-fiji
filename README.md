@@ -1,7 +1,8 @@
 Bio-Formats Fiji
 ================
 
-[![Build Status](https://travis-ci.org/ome/bio-formats-fiji.svg)](https://travis-ci.org/ome/bio-formats-fiji)
+[![Actions Status](https://github.com/ome/bio-formats-fiji/workflows/Maven/badge.svg)](https://github.com/ome/bio-formats-fiji/actions)
+
 
 A simple POM allowing to update a Fiji distribution with a new version of
 Bio-Formats.
